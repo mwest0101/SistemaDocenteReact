@@ -1,0 +1,74 @@
+body {
+    background-color: white;    
+    justify-content: space-around;
+
+    
+}
+
+
+.content{
+    width: 100%;     
+    display: flex;    
+    flex-direction:column;  
+    align-items: center; 
+    padding:0 0 0 0;
+}
+
+#idDivForm_regis{
+    width: 40%;     
+    display: flex;
+    flex-direction:column;  
+    align-items: center;      
+  }
+
+  
+#mainMenu{
+display: flex;    
+flex-direction:column;      
+align-items: center; 
+/* background-color: #EFEFEF; 
+color: #3f72af; */
+width: 100%;
+/* padding: 0.1em 0em 0.1em 0em;
+margin: 1em 1em 1em 1em; */
+}
+
+
+
+
+h1 {
+    
+    /* padding:2% 0 5% 0; */
+
+}
+
+tr:hover{
+    background-color:lightgray;
+}
+a:link {
+    color: EEEEEE;
+  }
+ 
+a:visited {
+      color:#010101;
+  }
+
+a:hover {
+    color: WHITE;
+  }
+
+a:active {
+    color:#010101;
+  }  
+
+
+th img{
+    width:20px;
+    height:auto;
+}
+
+.tableOption {
+    
+    font-weight: bold;
+}
+

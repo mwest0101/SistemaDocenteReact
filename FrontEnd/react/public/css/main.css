@@ -1,0 +1,182 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    text-size-adjust:initial;
+}
+
+
+.content{
+    width: 100%;     
+    display: flex;
+    flex-direction:column;    
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    font-family: Verdana,sans-serif;  
+    background-color:white;
+}
+
+#mainMenu {
+    /* padding:0px 0px 0px 0px; */
+    width: 100%;      
+    display: flex;     
+    flex-direction:row;      
+    align-items:right;
+    background-color:#3f72af;
+    color:white;
+    /* align-items:s; */
+    
+}
+.menuSep{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    width:80vw;
+}
+
+.menuPerfil{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    width:15%;
+    display: flex;      
+    flex-direction:row; 
+    display: flex;
+    align-items: center;
+
+}
+.menuPerfil div{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+}
+
+.mainMenu div {
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    /* float:right; */
+    /* width: 100px; */
+    
+    
+}
+
+.middlePanel{
+    width: 100%;  
+
+    display: flex;
+    flex-direction:row; 
+    background-color:white; 
+    flex-wrap:nowrap;   
+    height:90vh;   
+}
+
+#leftMenu{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    align-items: center;
+    background-color:#EFEFEF;
+    height:auto;
+    /* color:gray; */
+    width: 12%;
+}
+
+#leftMenu li{
+    padding-top: 10px;
+}
+#mainPanel{
+    /* align-items: center; */
+    /* background-color:white; */
+    /* height:auto; */
+    color:gray;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction:column;  */
+}
+.imgIco{
+    width:3em;
+    height:auto;
+}
+
+a{
+    text-decoration:none;
+}
+
+body {
+    background-color: white;    
+    justify-content: space-around;
+
+    
+}
+
+
+.content_register{
+    width: 100%;     
+    display: flex;    
+    flex-direction:column;  
+    align-items: center; 
+    padding:0 0 0 0;
+}
+
+#idDivForm_register{
+    width: 40%;     
+    display: flex;
+    flex-direction:column;  
+    align-items: center;      
+  }
+
+  
+#mainMenu_register{
+display: flex;    
+flex-direction:column;      
+align-items: center; 
+/* background-color: #EFEFEF; 
+color: #3f72af; */
+width: 100%;
+/* padding: 0.1em 0em 0.1em 0em;
+margin: 1em 1em 1em 1em; */
+}
+
+.chatContent{
+    display: flex;     
+    flex-direction:row;
+    background-color:white; 
+}
+
+.chatDivIzq{
+    /* width:100%; */
+    width:80%;
+    /* background-color: blue; */
+}
+
+.chatDivDer{
+    /* width: 100%; */
+    width:20%;
+    /* background-color: greenyellow; */
+}
+
+.chatDivUpper{
+    /* width:100%; */
+    height:78vmin;
+    /* background-color: blue; */
+    overflow-y: scroll;
+}
+
+.chatDivDown{
+    /* width: 100%; */
+    height:10vmin;
+    /* background-color: greenyellow; */
+}
+
+.cUser{
+    color:red;
+    font-weight: bold;
+}
+.cComment{
+    color:green;
+    font-weight: bold;
+    
+}
+.chatBox{
+    display:flex;
+    flex-direction:row;
+}
+
+.userLinkMenu {color:white;}
